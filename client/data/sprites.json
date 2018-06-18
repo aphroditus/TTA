@@ -10233,16 +10233,16 @@
   },
   {
     "id": "king",
-    "width": 32,
-    "height": 32,
+    "width": 24,
+    "height": 24,
     "animations": {
       "idle_down": {
         "length": 2,
         "row": 0
       }
     },
-    "offsetX": -8,
-    "offsetY": -12
+    "offsetX": -4,
+    "offsetY": -8
   },
   {
     "id": "lavanpc",
