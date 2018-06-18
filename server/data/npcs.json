@@ -88,7 +88,7 @@
     "name": "Programmer",
     "text": ["Oh.. This is awkward...", "You may be wondering why I'm here as well.", "Well just letting you know..",
             "It's definitely not because we're running low on pixel art..", "Regardless.. If you want to join the community",
-            "Our Discord <a target=\"_blank\" href=\"https://discord.gg/8MPSFW4\">is available here!</a>"]
+            "Our website <a target=\"_blank\" href=\"http://tta.oz.hn\">is available here!</a>"]
   },
 
   "ForestNpc": {
@@ -97,8 +97,8 @@
 
   "Octocat": {
     "id": 19,
-    "name": "Octocat",
-    "text": ["Hey there!", "I am the Octocat, the programmer and I", "are very well acquainted.", "Nonetheless, make sure that you <a target=\"_blank\" href=\"https://github.com/Tach-Yon/Tap-Tap-Adventure\">check out the source on GitHub!</a>"]
+    "name": "Jario",
+    "text": ["Hey there!", "I'm Jario the gardner.", "Hey, <a target=\"_blank\" href=\"https://github.com/ikonbsd/TTA\">check out the source on GitHub!</a>"]
   },
 
   "Soldier": {
