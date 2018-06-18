@@ -11593,16 +11593,16 @@
   },
   {
     "id": "octocat",
-    "width": 32,
-    "height": 32,
+    "width": 24,
+    "height": 24,
     "animations": {
       "idle_down": {
-        "length": 4,
+        "length": 2,
         "row": 0
       }
     },
-    "offsetX": -8,
-    "offsetY": -12
+    "offsetX": -4,
+    "offsetY": -8
   },
   {
     "id": "octopus",
@@ -13286,51 +13286,53 @@
   },
   {
     "id": "rat",
-    "width": 48,
-    "height": 48,
+    "width": 24,
+    "height": 24,
     "idleSpeed": 200,
     "animations": {
       "death": {
-        "length": 4,
+        "length": 2,
         "row": 0
       },
       "atk_right": {
-        "length": 6,
-        "row": 1
+        "length": 2,
+        "row": 0
       },
       "walk_right": {
-        "length": 3,
-        "row": 2
+        "length": 2,
+        "row": 0
       },
       "idle_right": {
         "length": 2,
-        "row": 3
+        "row": 0
       },
       "atk_up": {
-        "length": 4,
-        "row": 4
+        "length": 2,
+        "row": 0
       },
       "walk_up": {
-        "length": 4,
-        "row": 5
+        "length": 2,
+        "row": 0
       },
       "idle_up": {
-        "length": 4,
-        "row": 6
+        "length": 2,
+        "row": 0
       },
       "atk_down": {
-        "length": 4,
-        "row": 7
+        "length": 2,
+        "row": 0
       },
       "walk_down": {
-        "length": 4,
-        "row": 8
+        "length": 2,
+        "row": 0
       },
       "idle_down": {
-        "length": 4,
-        "row": 9
+        "length": 2,
+        "row": 0
       }
     }
+    "offsetX": -4,
+    "offsetY": -8
   },
   {
     "id": "redarcherarmor",
