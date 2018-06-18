@@ -1,4 +1,4 @@
-# Tap Tap Adventure
+# TTA
 
 Tap Tap Adventure (TTA) is a massively multi-player online open-source project based on Little Workshop's 2012 demonstration for HTML5 WebSockets - BrowserQuest (BQ).
 
@@ -44,7 +44,7 @@ Still, there are a couple things that have to be done:
 - More quests and achievements
 
 
-## Running Tap Tap Adventure
+## Running TTA
 
 Running the server is fairly straightforward, for the most part. If you encounter any issues, make sure you use the alternative solution.
 
