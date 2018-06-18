@@ -1,11 +1,10 @@
-@@ -1,28 +0,0 @@
 {
   "name": "Tap Tap Adventure",
   "host": "0.0.0.0",
   "port": 1800,
 
   "offlineMode": false,
-  "devClient": true,
+  "devClient": false,
   "development": false,
   "overrideAuth": false,
   "debug": false,
