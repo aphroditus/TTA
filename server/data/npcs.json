@@ -61,8 +61,8 @@
 
   "Boxingman": {
     "id": 12,
-    "name": "Mike Tyson",
-    "text": "Woosh."
+    "name": "Rokky",
+    "text": ["Woosh."]
   },
 
   "Vampire": {
