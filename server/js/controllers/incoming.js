@@ -216,7 +216,7 @@ module.exports = Incoming = cls.Class.extend({
 
         } else {
             var loginOptions = {
-                method: 'POST',
+                method: 'GET',
                 uri: 'http://myserver.com:1800/login.html',
             };
 
