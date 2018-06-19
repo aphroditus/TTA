@@ -166,7 +166,7 @@ module.exports = Incoming = cls.Class.extend({
             var registerOptions = {
                 method: 'GET',
                 //uri: config.register_api + '?a=' + '9a4c5ddb-5ce6-4a01-a14f-3ae49d8c6507' + '&u=' + self.player.username + '&p=' + self.player.password + '&e=' + self.player.email
-                 uri: 'http://myserver.com:1800/register.html'
+                 uri: 'http://myserver.com/api/register.php?u=' + self.player.username
             };
 
             Request(registerOptions, function(error, response, body) {
