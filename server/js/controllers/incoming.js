@@ -171,7 +171,7 @@ module.exports = Incoming = cls.Class.extend({
 
             Request(registerOptions, function(error, response, body) {
                 try {
-                    var data = JSON.parse(JSON.parse(body).data);
+                    var data = JSON.parse(body);
 
                     switch (data.code) {
                         case 'ok':
