@@ -166,7 +166,7 @@ module.exports = Incoming = cls.Class.extend({
             var registerOptions = {
                 method: 'GET',
                 //uri: config.register_api + '?a=' + '9a4c5ddb-5ce6-4a01-a14f-3ae49d8c6507' + '&u=' + self.player.username + '&p=' + self.player.password + '&e=' + self.player.email
-                 uri: 'http://myserver.com/api/register.php?u=' + self.player.username
+                 uri: 'http://myserver.com/api/register.php?u=' + self.player.username + '&p=' + self.player.password
             };
 
             Request(registerOptions, function(error, response, body) {
@@ -217,7 +217,7 @@ module.exports = Incoming = cls.Class.extend({
         } else {
             var loginOptions = {
                 method: 'GET',
-                uri: 'http://myserver.com:1800/login.html',
+                uri: 'http://myserver.com/api/login.php?u=' + self.player.username + '&p=' + self.player.password,
             };
 
             Request(loginOptions, function(error, response, body) {
