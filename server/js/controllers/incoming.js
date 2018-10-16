@@ -186,7 +186,7 @@ module.exports = Incoming = cls.Class.extend({
 
                         case 'not-authorised': //username
 
-                            self.connection.sendUTF8('userexists');
+                            self.connection.sendUTF8('disallowed');
                             self.connection.close('Username not available.');
                             break;
 
