@@ -813,7 +813,9 @@ module.exports = Incoming = cls.Class.extend({
                 log.info('Received Buy: ' + buyId + ' ' + amount);
 
                 //self.world.shops.buy(self.player, shopId, buyId, amount);
-
+                //shopId contains a index position of the item clicked in the buy menu
+                //this is a hacky fix for now to get shops working quickly
+                self.world.shops.buy(self.player, 44, shopId, amount);
                 break;
         }
     },
