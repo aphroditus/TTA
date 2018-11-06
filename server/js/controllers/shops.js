@@ -52,6 +52,8 @@ module.exports = Shops = cls.Class.extend({
     },
 
     buy: function(player, shopId, itemId, count) {
+        var sitems=ShopData.getItems(shopId);
+        itemId=sitems[itemId];
         var self = this,
             cost = ShopData.getCost(shopId, itemId, count),
             currency = self.getCurrency(shopId),
@@ -65,7 +67,7 @@ module.exports = Shops = cls.Class.extend({
         }
 
         if (!player.inventory.contains(currency, cost)) {
-            player.notify('You do not have enough money to purchase this.');
+            player.notify('You need '+cost+' gp to purchase this.');
             return;
         }
 
@@ -78,11 +80,16 @@ module.exports = Shops = cls.Class.extend({
             count = stock;
 
         player.inventory.remove(currency, cost);
-        player.inventory.add(itemId, count);
+         player.inventory.add({
+                        id: itemId,
+                        count: count,
+                        ability: -1,
+                        abilityLevel: -1
+        });
 
         ShopData.decrement(shopId, itemId, count);
 
-        self.refresh();
+        self.refresh(shopId);
     },
 
     refresh: function(shopId) {
